@@ -1,0 +1,134 @@
+*{
+ --title-size:24px;  
+ --text-size:20px;  
+ margin:0;
+ padding: 0;
+ font-size: var(--text-size);
+}
+
+
+:root
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: rgb(143, 16, 16);
+}
+
+.navbar{
+    display: flex;
+    padding:10px;
+    align-items: center;
+}
+
+.navbar img{
+    width: 100px;
+}
+
+.accesos{
+    margin-left:40px;
+}
+
+.accesos a{
+    margin-left:50px;
+    color:white;
+    text-decoration: none;
+    font-size: var(--text-size);
+}
+
+.inicio{
+    display: flex;
+    margin-top:8rem;
+    margin-bottom:8rem;
+    justify-content: space-around;
+}
+
+.inicio-div{
+    text-align: center;
+    width: 500px;
+    
+}
+
+.inicio-div h2{
+  margin-bottom:20px;
+  font-size: var(--title-size);
+}
+
+.docentes{
+    padding:5px;
+}
+
+.docente-item{
+    display: flex;
+    margin-top:40px;
+    background-color: rgb(143, 16, 16);
+    padding:9px;
+    border-radius: 15px;
+    align-items: center;
+    color:white;
+}
+
+.docente-item img{
+ width: 150px;
+ border-radius: 50%;
+}
+
+.docente-item h2{
+    font-size: var(--title-size);
+}
+
+.docente-text{
+    margin-left:40px;
+}
+
+.directivos{
+    margin:40px 0 40px 0;
+    text-align: center;
+}
+
+.titulo h2{
+    font-size: 30px;
+    margin-top:60px;
+    color:rgb(143, 16, 16);
+}
+
+.contenedor-directivos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:40px;
+}
+
+.casilla{
+    padding:60px;
+}
+
+.casilla p{
+    margin-top:15px;
+
+}
+
+.casilla img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+footer{
+    padding:30px;
+    background-color: rgb(143, 16, 16);
+    display: flex;
+}
+
+.footer-list{
+    list-style: none;
+    margin-left:40px;
+}
+
+.footer-list li{
+    font-size: 17px;
+    color:white;
+    margin-top:5px;
+}
+
